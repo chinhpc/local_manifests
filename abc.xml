@@ -1,0 +1,12 @@
+<manifest>
+
+	<remote name="xyz"
+		fetch="https://github.com/chinhpc/"/>
+
+	<default revision="android-4.4"
+		remote="xyz"
+		sync-j="4" />
+
+	<project path="packages/apps/HelloWorld" name="Android_HelloWorld" />
+
+</manifest>
