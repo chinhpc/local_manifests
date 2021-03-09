@@ -3,7 +3,6 @@
 	<remote name="xyz"
 		fetch="https://github.com/chinhpc/"/>
 
-	<project path="packages/apps/HelloWorld" name="Android_HelloWorld" remote="xyz" revision="android-9"/>
-	<project path="vendor/HelloWorld_Native_Library" name="Android_HelloWorld_Native_Library" remote="xyz" revision="android-9"/>
+	<project path="vendor/chinhpc/gpio" name="Android_full_stack" remote="xyz" revision="android-9"/>
 
 </manifest>
