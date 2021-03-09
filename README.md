@@ -9,4 +9,4 @@ Easy "clone and go" repository for a Android Open Source Project build core base
  4. cd .repo
  5. git clone https://github.com/chinhpc/local_manifests.git -b \<branch\>
  6. cd ..
- 7. repo sync -c -j$(nproc)
+ 7. repo sync -c -j$(nproc) \<project name\>
