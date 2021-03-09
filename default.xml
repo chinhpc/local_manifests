@@ -4,5 +4,7 @@
 		fetch="https://github.com/chinhpc/"/>
 
 	<project path="vendor/chinhpc/gpio" name="Android_full_stack" remote="xyz" revision="android-9"/>
+	<remove-project name="device/generic/car" />
+	<project path="device/generic/car" name="device_generic_car" remote="xyz" revision="android-9"/>
 
 </manifest>
